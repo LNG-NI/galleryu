@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading">
+        <div class="loader"></div>
+        <p>Loading...</p>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Lumino</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Welcome to LUMINO</h2>
+            <p>Home of authentic football jerseys</p>
+            <button class="shop-btn">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <h2>Catalogue</h2>
+        <div class="product-grid">
+            
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="barcelona kit.webp" alt="Product 1">
+                </div>
+                <div class="product-info">
+                    <h3>Barcelona Home 24/25</h3>
+                    <p class="price">$129.99</p>
+                    <p>Barcelona FC home jersey for the 2024/25 season</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="arsenal-third-shirt-25-26.jpg" alt="Product 2">
+                </div>
+                <div class="product-info">
+                    <h3>Arsenal Third 24/25</h3>
+                    <p class="price">$799.99</p>
+                    <p>Arsenal FC third kit for the 2024/25 season</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="ajax-third-shirt-25-26.jpg" alt="Product 3">
+                </div>
+                <div class="product-info">
+                    <h3>Ajax third 24/25</h3>
+                    <p class="price">$999.99</p>
+                    <p>Ajax FC third kit for the 2024/25 season</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="liverpool-away-shirt-25-26.jpg" alt="Product 4">
+                </div>
+                <div class="product-info">
+                    <h3>Liverpool Away 24/25</h3>
+                    <p class="price">$249.99</p>
+                    <p>Liverpool FC away kit for the 2024/25 season</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="Inter-Miami-Third-Shirt-2025-26.jpg" alt="Product 5">
+                </div>
+                <div class="product-info">
+                    <h3>Inter Miami third 24/25</h3>
+                    <p class="price">$599.99</p>
+                    <p>Inter Miami third kit for the 2024/25 season</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="la-galaxy-2024-third-kit (1).jpg" alt="Product 6">
+                </div>
+                <div class="product-info">
+                    <h3>LA Galaxy third 24/25</h3>
+                    <p class="price">$899.99</p>
+                    <p>LA Galaxy third kit for the 2024/25 season</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 MyShop. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple loading animation hide
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.querySelector('.loading').style.display = 'none';
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
